@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>自己紹介</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        font-size: 14px;
+        background-color: #fef;
+      }
+      
+      .page-header {
+        font-size: 60px;
+      }
+      
+      .navbar {
+        border-radius: 100px;
+        background: #3e9;
+      }
+      
+      .row {
+        margin-bottom: 50px;
+      }
+      
+      .icon {
+        text-align: left;
+      }
+      
+      .content p {
+        margin-bottom: 30px;
+      }
+      
+      #facebook img {
+        max-width: 50px;
+        border-radius: 30%;
+      }
+      
+      #twitter img {
+        max-width: 50px;
+        border-radius: 30%;
+      }
+      
+      footer {
+        border-top: 1px solid#e7e7e7;
+        background-color: #f8f8f8;
+        text-align: center;
+      }
+      
+      .copyright {
+        padding: 20px 0;
+        font-size: 12px;
+        color: #666;
+      }
+      
+      @media (max-width: 768px) {
+        body {
+          font-size: 12px;
+          background-color: #fef;
+        }
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-left">
+              <li><a href="https://github.com/tomoyanagaoka">略歴</a></li>
+              <li><a href="https://github.com/tomoyanagaoka">写真</a></li>
+              <li><a href="https://github.com/tomoyanagaoka">お問い合せ</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="page-header">
+        <p>長岡朋弥</p>
+      </div>
+        <div class="row">
+        <div class="icon col-sm-6">
+            <p>生年月日：1988年12月8日</p>
+            <p>趣味：草野球、写真撮影</p>
+            <p>私の自己紹介みて気になった方は、<a href="tomoya.html">contact</a>よりご連絡ください。</p>
+            <span id="facebook">
+                <a href="https://github.com/tomoyanagaoka"><img src="facebook.jpg" alt=""></a>
+            </span>
+            <span id="twitter">
+                <a href="https://github.com/tomoyanagaoka"><img src="twitter.jpg" alt=""></a>
+            </span>
+        </div>
+        <div class="content col-sm-6 hidden-xs">
+            <div id="logo">
+               <img src="tomoya.JPG" class="img-responsive" alt="">
+            </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="copyright">© 2016 tomoyanagaoka</div>
+    </footer>
+  </body>
+</html>
